@@ -1,0 +1,46 @@
+name: ULMS
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - aiohttp=3.10.5
+  - alabaster=0.7.12
+  - anaconda=2022.10
+  - anaconda-client=1.11.0
+  - anaconda-navigator=2.3.1
+  - anyio=3.5.0
+  - appdirs=1.4.4
+  - argon2-cffi=21.3.0
+  - astroid=2.11.7
+  - astropy=5.1
+  - async-timeout=4.0.3
+  - attrs=21.4.0
+  - babel=2.9.1
+  - beautifulsoup4=4.11.1
+  - bokeh=2.4.3
+  - botocore=1.27.28
+  - boto3=1.24.28
+  - cryptography=37.0.1
+  - dask=2022.7.0
+  - distributed=2022.7.0
+  - flask=1.1.2
+  - h5py=3.7.0
+  - huggingface-hub=0.24.6
+  - jupyterlab=3.4.4
+  - langchain=0.3.13
+  - matplotlib=3.5.2
+  - numpy=1.22.4
+  - pandas=1.4.3
+  - scikit-learn=1.1.1
+  - scipy=1.8.1
+  - seaborn=0.11.2
+  - sqlalchemy=1.4.39
+  - tensorflow=2.9.1
+  - xgboost=1.6.1
+  - pip:
+      - langchain-community==0.3.13
+      - langchain-core==0.3.28
+      - langchain-huggingface==0.0.3
+      - langchain-ollama==0.1.1
+      - langchain-text-splitters==0.3.4
+      - langsmith==0.1.147

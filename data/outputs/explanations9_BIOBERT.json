@@ -1,0 +1,43 @@
+{
+    "output": {
+        "input_text": "PET-CT BrainMemory loss, rule out Alzheimer\u2019s diseaseFindings:\nCerebral Metabolism: Reduced FDG uptake in the parietotemporal lobes bilaterally, more prominent on the left side, consistent with Alzheimer\u2019s disease.\nOther Findings: No significant tracer uptake in extra-cerebral structures.\nBackground Activity: Normal tracer uptake in the basal ganglia and cerebellum.\n\nImpression:\nFindings suggestive of early Alzheimer\u2019s disease.\nRecommend clinical correlation and neurocognitive testing.",
+        "keywords": [
+            "PET - CT Brain",
+            "##M",
+            "##emory loss, rule out Alzheimer",
+            "\u2019",
+            "s diseaseF",
+            "##ind",
+            "##ings : Cerebral",
+            "Met",
+            "##abolism : Reduced",
+            "F",
+            "##DG uptake in",
+            "the pariet",
+            "##otemporal lobes bilaterally, more prominent on",
+            "the",
+            "left side, consistent with Alzheimer",
+            "\u2019",
+            "s disease.",
+            "Other",
+            "Findings : No significant tracer uptake in",
+            "extra -",
+            "cerebral structures",
+            ". Background",
+            "Activity : Normal tracer uptake in",
+            "the basal gang",
+            "##lia and",
+            "c",
+            "##ere",
+            "##bell",
+            "##um",
+            ".",
+            "Impression : Findings",
+            "suggest",
+            "##ive of early Alzheimer",
+            "\u2019",
+            "s disease. Recommend clinical correlation and neurocognitive testing."
+        ],
+        "text": "Here is the analysis of the medical text and provided keywords, focusing on medical terminology, equipment, organs, diseases, and their clinical context:\n\n```json\n{\n  \"terms\": [\n    {\n      \"term\": \"PET-CT Brain\",\n      \"category\": \"Imaging modality\",\n      \"explanation\": \"A type of imaging test that combines Positron Emission Tomography (PET) with Computed Tomography (CT) to produce detailed images of the brain.\",\n      \"relevance\": \"Used to assess various conditions affecting the brain, including Alzheimer's disease.\",\n      \"relation_to_findings\": \"The primary tool used for this assessment, providing findings relevant to the diagnosis of Alzheimer's disease.\"\n    },\n    {\n      \"term\": \"Memory loss\",\n      \"category\": \"Symptom\",\n      \"explanation\": \"Difficulty in remembering recent events or learning new information.\",\n      \"relevance\": \"A common symptom associated with various conditions, including Alzheimer's disease.\",\n      \"relation_to_findings\": \"The primary concern leading to the PET-CT scan, suggesting potential cognitive decline.\"\n    },\n    {\n      \"term\": \"Alzheimer\u2019s disease\",\n      \"category\": \"Disease\",\n      \"explanation\": \"A neurodegenerative disorder characterized by progressive memory loss and cognitive decline.\",\n      \"relevance\": \"The primary condition being investigated with the PET-CT scan, suggested by reduced FDG uptake in the parietotemporal lobes bilaterally.\"\n    },\n    {\n      \"term\": \"Cerebral Metabolism\",\n      \"category\": \"Technical term\",\n      \"explanation\": \"Refers to the metabolic activity within the brain.\",\n      \"relevance\": \"Assessed through PET-CT scans, providing insights into brain function and potential abnormalities.\"\n    },\n    {\n      \"term\": \"Reduced FDG uptake\",\n      \"category\": \"Imaging finding\",\n      \"explanation\": \"Decreased glucose metabolism in a specific area of the brain.\",\n      \"relevance\": \"Suggestive of Alzheimer's disease, as seen in this report with reduced FDG uptake in the parietotemporal lobes.\"\n    },\n    {\n      \"term\": \"Parietotemporal lobes bilaterally\",\n      \"category\": \"Anatomical structure\",\n      \"explanation\": \"A part of the brain located near the sides and top, playing a role in memory and spatial awareness.\",\n      \"relevance\": \"The area showing reduced FDG uptake, consistent with Alzheimer's disease.\"\n    },\n    {\n      \"term\": \"Basal ganglia\",\n      \"category\": \"Anatomical structure\",\n      \"explanation\": \"A group of structures deep within the brain involved in movement control and cognition.\",\n      \"relevance\": \"Showed normal tracer uptake, indicating no significant abnormalities or involvement in Alzheimer's disease.\"\n    },\n    {\n      \"term\": \"Cerebellum\",\n      \"category\": \"Anatomical structure\",\n      \"explanation\": \"A part of the brain located at the base, playing a role in motor control and balance.\",\n      \"relevance\": \"Also showed normal tracer uptake, indicating no significant abnormalities or involvement in Alzheimer's disease.\"\n    },\n    {\n      \"term\": \"Extra-cerebral structures\",\n      \"category\": \"Anatomical structure\",\n      \"explanation\": \"Areas outside the brain itself, such as blood vessels or other organs.\",\n      \"relevance\": \"Did not show significant tracer uptake, indicating no involvement in Alzheimer's disease.\"\n    },\n    {\n      \"term\": \"Background Activity\",\n      \"category\": \"Technical term\",\n      \"explanation\": \"Refers to normal or baseline activity levels within the brain as seen on PET-CT scans.\",\n      \"relevance\": \"Provided a reference point for interpreting findings, indicating no significant abnormalities in certain areas.\"\n    },\n    {\n      \"term\": \"Impression\",\n      \"category\": \"Clinical term\",\n      \"explanation\": \"A summary statement or interpretation of the imaging findings and their clinical significance.\",\n      \"relevance\": \"Indicates that the findings suggest early Alzheimer\u2019s disease, requiring further evaluation with clinical correlation and neurocognitive testing.\"\n    }\n  ]\n}\n```"
+    }
+}
