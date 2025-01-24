@@ -92,8 +92,10 @@ ssh -o "StrictHostKeyChecking no" -i "${EC2_KEY_PAIR_NAME}.pem" ec2-user@$PUBLIC
 
     # Start the Flask app
     echo "Starting Flask app..."
-    python3 app.py &
+    python3 backend/app.py &
 EOF
 
 echo "Flask app is now running with Llama 3.1 and Conda environment set up."
 echo "Access it at http://$PUBLIC_IP:5000"
+
+

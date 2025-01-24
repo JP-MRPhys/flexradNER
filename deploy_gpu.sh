@@ -99,7 +99,7 @@ ssh -o "StrictHostKeyChecking no" -i "${EC2_KEY_PAIR_NAME}.pem" ec2-user@$PUBLIC
 
     # Start the Flask app
     echo "Starting Flask app..."
-    python3 app.py &
+    python3 backend/app.py &
 EOF
 
 echo "Flask app is now running on a GPU-enabled instance."
